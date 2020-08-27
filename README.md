@@ -11,4 +11,4 @@ I made some dark themes that fit my preferences because I really dislike light t
 
 ## Table of contents
 * [Pikalytics](https://github.com/Wessel/Themes/blob/master/Pikalytics)
-  * [Pikalytics Dark](https://github.com/Wessel/Themes/blob/master/Pikalytics/pikalytics-dark.user.css)
+  * [Pikalytics Dark](https://github.com/Wessel/Themes/blob/master/Pikalytics/Pikalytics-dark.user.css)
