@@ -1,9 +1,9 @@
 ---
 name: Feature request
-about: Request a feature for $(PROJECT_NAME)
+about: Request a feature for Themes
 title: "[ENHANCEMENT] Your idea"
 labels: enhancement
-assignees: PassTheWessel
+assignees: Wessel
 
 ---
 

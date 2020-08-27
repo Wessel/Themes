@@ -1,0 +1,207 @@
+/* ==UserStyle==
+@name        Pikalytics Dark
+@namespace   Wessel
+@version     1.0.1
+@homepageURL https://github.com/Wessel/Themes
+@updateURL   https://github.com/Wessel/Themes/blob/master/Pikalytics/pikalytics-dark.user.css
+@license     MIT
+@author      Wessel
+==/UserStyle== */
+
+/*
+  @TODO Fix damage calc buttons
+  @TODO Add team builder support
+  @TODO Add articles support
+  @TODO Add tournaments support
+  @TODO Add credits
+  @TODO Fix drop down buttons
+*/
+
+@-moz-document domain("pikalytics.com") {
+  /* Pokedex */
+  .bg-white,
+  #pokemon_content_wrapper,
+  .pokedex_entry:nth-of-type(2n+1) {
+    color: #FFFFFF;
+    background: #23272A;
+  }
+
+  .pokedex_entry:hover {
+    background: #99AAB5;
+  }
+
+  .search,
+  #logo_button,
+  #babiri_button span,
+  .format-quick-button,
+  #calc_dex_button span,
+  .pokemon-stat-container div,
+  .move-wrapper:nth-of-type(2n),
+  .pokedex_entry:nth-of-type(2n) {
+    text-shadow: none;
+    color: #FFFFFF !important;
+  }
+
+  #babiri_button,
+  #calc_dex_button,
+  .format-quick-button {
+    transition: .2s;
+    background: #99AAB5;
+  }
+
+  .pokemon-stat-container {
+    margin: 3px;
+    border-radius: 2%;
+    color: #FFFFFF;
+    background: #2C2F33;
+  }
+
+  #babiri_button:hover,
+  #calc_dex_button:hover,
+  .format-quick-button:hover {
+    color: #FFFFFF !important;
+    background: #000000;
+  }
+
+  .pokedex-item-entry-new,
+  .pokedex-move-entry-new,
+  .pokedex-ability-entry-new {
+    height: 30px;
+  }
+
+  .pokedex-move-entry-new:nth-of-type(2n) {
+    background-color: #687DC9;
+  }
+
+  .pokedex-move-entry-new:nth-of-type(2n+1) {
+    background: #7289DA;
+  }
+
+  .move-wrapper:hover,
+  .teammate_entry:hover {
+    background-color: #5d6fb1;
+  }
+
+  #app_ad_1,
+  #app_ad_2,
+  #app_ad_3 {
+    display: none;
+  }
+
+  #main_header,
+  .select-wrapper,
+  #pokedex_wrapper {
+    color: #FFFFFF;
+    background: #2C2F33;
+  }
+
+  .calc-button,
+  .team-button,
+  .pokedex-button,
+  .results-button,
+  .articles-button {
+    color: #FFFFFF !important;
+    border-bottom: 5px solid #99AAB5;
+    transition: .2s;
+  }
+
+  #format_dd optgroup {
+    color: white !important;
+    background: black;
+  }
+
+  .pokedex #format_dd option {
+    color: white !important;
+    background: gray;
+  }
+
+  .select-wrapper select#format_dd {
+    background: #99AAB5 !important;
+    color: white !important;
+    transition: .2s;
+  }
+
+  .select-wrapper select#format_dd:hover  {
+    background-color: black;
+    color: black !important;
+  }
+
+  /* Damage calc */
+  #outer_wrapper {
+    background: #2C2F33 !important;
+  }
+
+  #outer_wrapper .bg-white {
+    border-radius: 1%;
+  }
+
+  #resultHeaderL,
+  #resultHeaderR,
+  .underLimit {
+    color: #FFFFFF !important;
+  }
+
+  .move-wrapper:hover,
+  .move-wrapper .btn:hover {
+    background: #99AAB5;
+  }
+
+  .locked-move:checked + .btn {
+    background-color: #7289DA;
+  }
+
+  .move-wrapper:nth-of-type(2n) {
+    background-color: #363b41;
+  }
+
+  .move-wrapper:nth-of-type(2n+1) {
+    background-color: #1d1f22;
+  }
+
+
+  .move-wrapper label {
+    color: #FFFFFF !important;
+  }
+
+  .move-wrapper span#resultDamageL1,
+  .move-wrapper span#resultDamageL2,
+  .move-wrapper span#resultDamageL3,
+  .move-wrapper span#resultDamageL4,
+  .move-wrapper span#resultDamageR1,
+  .move-wrapper span#resultDamageR2,
+  .move-wrapper span#resultDamageR3,
+  .move-wrapper span#resultDamageR4 {
+    margin-right: 10px;
+  }
+
+  .btn,
+  .select2-chosen,
+  .calc-trigger,
+  .customMon {
+    color: #000000;
+    background-color: #99AAB5;
+    transition: .1s;
+  }
+
+  #customMon,
+  #spreadName {
+    color: #000000;
+    background-color: #99AAB5;
+    border: 1.5px solid black;
+    border-radius: 2%;
+  }
+
+  .btn:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+
+  .btn-input:checked + .btn {
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+
+  /* Anchors */
+  a:hover { color: #fff; }
+  a:link, a:visited, a:active { color: #F87920; }
+}
